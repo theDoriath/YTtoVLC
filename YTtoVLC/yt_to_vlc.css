@@ -1,0 +1,48 @@
+div.yt_to_vlc-style {
+  height: 40px;
+  width: 100px;
+  align-items: center;
+  color: var(--yt-icon-color);
+}
+
+#vlcButton {
+    display: inline-block;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 0.007px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+a.yt_to_vlc-style {
+  line-height: 1;
+  height: 40px;
+  width: 100px;
+  color: inherit;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+#vlcButtonLink {
+  text-decoration-line: none;
+  align-items: center;
+  border-radius: 0px;
+  color: inherit;
+  font-family: Roboto, Arial, sans-serif;
+  text-decoration-color: initial;
+  text-decoration-style: solid;
+}
+
+.force-icon-button-style {
+  text-decoration-line: none;
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: .007px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
