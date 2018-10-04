@@ -2,12 +2,14 @@
   "author": "doriath",
   "manifest_version": 2,
   "name": "Youtube to VLC",
-  "version": "0.7.2",
+  "version": "0.8",
   "description": "Open YouTube videos in VLC player.",
   "content_scripts": [{
     "matches": ["*://www.youtube.com/watch?v=*"],
     "run_at": "document_idle",
     "css": ["yt_to_vlc.css"],
     "js": ["yt_to_vlc.js"]
-  }]
+  }],
+  "options_page": "options.html",
+  "permissions": ["storage"]
 }
